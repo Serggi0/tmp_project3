@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 
 
-# ! чтобы сайт не идентифицировал как бота
 HEADERS = {
     'user-agent':
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
