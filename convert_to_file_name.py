@@ -54,11 +54,11 @@ def convert_relativ_link(path, domain_name):
 #     return name
 # >> ru-hexlet-io-courses or ru-hexlet-io-courses.html
 
-# path = "/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"
-path = 'https://linzi-vsem.ru/karnavalnye/linzy-sharingan/'
+path = "/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"
+# path = 'https://linzi-vsem.ru/karnavalnye/linzy-sharingan/'
 domain_name = 'https://linzi-vsem.ru'
 p = convert_path_name(path)
 z = convert_relativ_link(path, domain_name)
 
 print(p)
-print(z)
+# print(z)
